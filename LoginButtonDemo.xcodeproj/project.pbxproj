@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B928209B1D17CCF400E70706 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B928209A1D17CCF400E70706 /* main.m */; };
+		B928209E1D17CCF400E70706 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B928209D1D17CCF400E70706 /* AppDelegate.m */; };
+		B92820A11D17CCF400E70706 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B92820A01D17CCF400E70706 /* ViewController.m */; };
+		B92820A41D17CCF400E70706 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B92820A21D17CCF400E70706 /* Main.storyboard */; };
+		B92820A61D17CCF400E70706 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B92820A51D17CCF400E70706 /* Assets.xcassets */; };
+		B92820A91D17CCF400E70706 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B92820A71D17CCF400E70706 /* LaunchScreen.storyboard */; };
+		B92820B41D17CCF500E70706 /* LoginButtonDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B92820B31D17CCF500E70706 /* LoginButtonDemoTests.m */; };
+		B92820BF1D17CCF500E70706 /* LoginButtonDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B92820BE1D17CCF500E70706 /* LoginButtonDemoUITests.m */; };
+		B92820DE1D17CD1D00E70706 /* email.png in Resources */ = {isa = PBXBuildFile; fileRef = B92820CC1D17CD1D00E70706 /* email.png */; };
+		B92820DF1D17CD1D00E70706 /* email@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B92820CD1D17CD1D00E70706 /* email@2x.png */; };
+		B92820E01D17CD1D00E70706 /* email@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B92820CE1D17CD1D00E70706 /* email@3x.png */; };
+		B92820E11D17CD1D00E70706 /* fb.png in Resources */ = {isa = PBXBuildFile; fileRef = B92820CF1D17CD1D00E70706 /* fb.png */; };
+		B92820E21D17CD1D00E70706 /* fb@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B92820D01D17CD1D00E70706 /* fb@2x.png */; };
+		B92820E31D17CD1D00E70706 /* fb@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B92820D11D17CD1D00E70706 /* fb@3x.png */; };
+		B92820E41D17CD1D00E70706 /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = B92820D21D17CD1D00E70706 /* twitter.png */; };
+		B92820E51D17CD1D00E70706 /* twitter@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B92820D31D17CD1D00E70706 /* twitter@2x.png */; };
+		B92820E61D17CD1D00E70706 /* twitter@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B92820D41D17CD1D00E70706 /* twitter@3x.png */; };
+		B92820E71D17CD1D00E70706 /* loginWithEmail.png in Resources */ = {isa = PBXBuildFile; fileRef = B92820D51D17CD1D00E70706 /* loginWithEmail.png */; };
+		B92820E81D17CD1D00E70706 /* loginWithEmail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B92820D61D17CD1D00E70706 /* loginWithEmail@2x.png */; };
+		B92820E91D17CD1D00E70706 /* loginWithEmail@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B92820D71D17CD1D00E70706 /* loginWithEmail@3x.png */; };
+		B92820EA1D17CD1D00E70706 /* loginWithFB.png in Resources */ = {isa = PBXBuildFile; fileRef = B92820D81D17CD1D00E70706 /* loginWithFB.png */; };
+		B92820EB1D17CD1D00E70706 /* loginWithFB@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B92820D91D17CD1D00E70706 /* loginWithFB@2x.png */; };
+		B92820EC1D17CD1D00E70706 /* loginWithFB@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B92820DA1D17CD1D00E70706 /* loginWithFB@3x.png */; };
+		B92820ED1D17CD1D00E70706 /* loginWithTwitter.png in Resources */ = {isa = PBXBuildFile; fileRef = B92820DB1D17CD1D00E70706 /* loginWithTwitter.png */; };
+		B92820EE1D17CD1D00E70706 /* loginWithTwitter@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B92820DC1D17CD1D00E70706 /* loginWithTwitter@2x.png */; };
+		B92820EF1D17CD1D00E70706 /* loginWithTwitter@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B92820DD1D17CD1D00E70706 /* loginWithTwitter@3x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B92820B01D17CCF500E70706 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B928208E1D17CCF300E70706 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B92820951D17CCF300E70706;
+			remoteInfo = LoginButtonDemo;
+		};
+		B92820BB1D17CCF500E70706 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B928208E1D17CCF300E70706 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B92820951D17CCF300E70706;
+			remoteInfo = LoginButtonDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B92820961D17CCF300E70706 /* LoginButtonDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginButtonDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B928209A1D17CCF400E70706 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B928209C1D17CCF400E70706 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B928209D1D17CCF400E70706 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B928209F1D17CCF400E70706 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B92820A01D17CCF400E70706 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B92820A31D17CCF400E70706 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B92820A51D17CCF400E70706 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B92820A81D17CCF400E70706 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B92820AA1D17CCF400E70706 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B92820AF1D17CCF500E70706 /* LoginButtonDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginButtonDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B92820B31D17CCF500E70706 /* LoginButtonDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginButtonDemoTests.m; sourceTree = "<group>"; };
+		B92820B51D17CCF500E70706 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B92820BA1D17CCF500E70706 /* LoginButtonDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginButtonDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B92820BE1D17CCF500E70706 /* LoginButtonDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginButtonDemoUITests.m; sourceTree = "<group>"; };
+		B92820C01D17CCF500E70706 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B92820CC1D17CD1D00E70706 /* email.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = email.png; path = "../../../../../../Volumes/Macintosh HD 2/NEwDATA/Projects/WeView App/WeView 2/images/loginImages/email.png"; sourceTree = "<group>"; };
+		B92820CD1D17CD1D00E70706 /* email@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "email@2x.png"; path = "../../../../../../Volumes/Macintosh HD 2/NEwDATA/Projects/WeView App/WeView 2/images/loginImages/email@2x.png"; sourceTree = "<group>"; };
+		B92820CE1D17CD1D00E70706 /* email@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "email@3x.png"; path = "../../../../../../Volumes/Macintosh HD 2/NEwDATA/Projects/WeView App/WeView 2/images/loginImages/email@3x.png"; sourceTree = "<group>"; };
+		B92820CF1D17CD1D00E70706 /* fb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fb.png; path = "../../../../../../Volumes/Macintosh HD 2/NEwDATA/Projects/WeView App/WeView 2/images/loginImages/fb.png"; sourceTree = "<group>"; };
+		B92820D01D17CD1D00E70706 /* fb@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "fb@2x.png"; path = "../../../../../../Volumes/Macintosh HD 2/NEwDATA/Projects/WeView App/WeView 2/images/loginImages/fb@2x.png"; sourceTree = "<group>"; };
+		B92820D11D17CD1D00E70706 /* fb@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "fb@3x.png"; path = "../../../../../../Volumes/Macintosh HD 2/NEwDATA/Projects/WeView App/WeView 2/images/loginImages/fb@3x.png"; sourceTree = "<group>"; };
+		B92820D21D17CD1D00E70706 /* twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = twitter.png; path = "../../../../../../Volumes/Macintosh HD 2/NEwDATA/Projects/WeView App/WeView 2/images/loginImages/twitter.png"; sourceTree = "<group>"; };
+		B92820D31D17CD1D00E70706 /* twitter@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "twitter@2x.png"; path = "../../../../../../Volumes/Macintosh HD 2/NEwDATA/Projects/WeView App/WeView 2/images/loginImages/twitter@2x.png"; sourceTree = "<group>"; };
+		B92820D41D17CD1D00E70706 /* twitter@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "twitter@3x.png"; path = "../../../../../../Volumes/Macintosh HD 2/NEwDATA/Projects/WeView App/WeView 2/images/loginImages/twitter@3x.png"; sourceTree = "<group>"; };
+		B92820D51D17CD1D00E70706 /* loginWithEmail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = loginWithEmail.png; path = "../../../../../../Volumes/Macintosh HD 2/NEwDATA/Projects/WeView App/WeView 2/images/loginImages/loginWithEmail.png"; sourceTree = "<group>"; };
+		B92820D61D17CD1D00E70706 /* loginWithEmail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "loginWithEmail@2x.png"; path = "../../../../../../Volumes/Macintosh HD 2/NEwDATA/Projects/WeView App/WeView 2/images/loginImages/loginWithEmail@2x.png"; sourceTree = "<group>"; };
+		B92820D71D17CD1D00E70706 /* loginWithEmail@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "loginWithEmail@3x.png"; path = "../../../../../../Volumes/Macintosh HD 2/NEwDATA/Projects/WeView App/WeView 2/images/loginImages/loginWithEmail@3x.png"; sourceTree = "<group>"; };
+		B92820D81D17CD1D00E70706 /* loginWithFB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = loginWithFB.png; path = "../../../../../../Volumes/Macintosh HD 2/NEwDATA/Projects/WeView App/WeView 2/images/loginImages/loginWithFB.png"; sourceTree = "<group>"; };
+		B92820D91D17CD1D00E70706 /* loginWithFB@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "loginWithFB@2x.png"; path = "../../../../../../Volumes/Macintosh HD 2/NEwDATA/Projects/WeView App/WeView 2/images/loginImages/loginWithFB@2x.png"; sourceTree = "<group>"; };
+		B92820DA1D17CD1D00E70706 /* loginWithFB@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "loginWithFB@3x.png"; path = "../../../../../../Volumes/Macintosh HD 2/NEwDATA/Projects/WeView App/WeView 2/images/loginImages/loginWithFB@3x.png"; sourceTree = "<group>"; };
+		B92820DB1D17CD1D00E70706 /* loginWithTwitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = loginWithTwitter.png; path = "../../../../../../Volumes/Macintosh HD 2/NEwDATA/Projects/WeView App/WeView 2/images/loginImages/loginWithTwitter.png"; sourceTree = "<group>"; };
+		B92820DC1D17CD1D00E70706 /* loginWithTwitter@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "loginWithTwitter@2x.png"; path = "../../../../../../Volumes/Macintosh HD 2/NEwDATA/Projects/WeView App/WeView 2/images/loginImages/loginWithTwitter@2x.png"; sourceTree = "<group>"; };
+		B92820DD1D17CD1D00E70706 /* loginWithTwitter@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "loginWithTwitter@3x.png"; path = "../../../../../../Volumes/Macintosh HD 2/NEwDATA/Projects/WeView App/WeView 2/images/loginImages/loginWithTwitter@3x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B92820931D17CCF300E70706 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B92820AC1D17CCF500E70706 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B92820B71D17CCF500E70706 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B928208D1D17CCF300E70706 = {
+			isa = PBXGroup;
+			children = (
+				B92820981D17CCF400E70706 /* LoginButtonDemo */,
+				B92820B21D17CCF500E70706 /* LoginButtonDemoTests */,
+				B92820BD1D17CCF500E70706 /* LoginButtonDemoUITests */,
+				B92820971D17CCF300E70706 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B92820971D17CCF300E70706 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B92820961D17CCF300E70706 /* LoginButtonDemo.app */,
+				B92820AF1D17CCF500E70706 /* LoginButtonDemoTests.xctest */,
+				B92820BA1D17CCF500E70706 /* LoginButtonDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B92820981D17CCF400E70706 /* LoginButtonDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B92820CC1D17CD1D00E70706 /* email.png */,
+				B92820CD1D17CD1D00E70706 /* email@2x.png */,
+				B92820CE1D17CD1D00E70706 /* email@3x.png */,
+				B92820CF1D17CD1D00E70706 /* fb.png */,
+				B92820D01D17CD1D00E70706 /* fb@2x.png */,
+				B92820D11D17CD1D00E70706 /* fb@3x.png */,
+				B92820D21D17CD1D00E70706 /* twitter.png */,
+				B92820D31D17CD1D00E70706 /* twitter@2x.png */,
+				B92820D41D17CD1D00E70706 /* twitter@3x.png */,
+				B92820D51D17CD1D00E70706 /* loginWithEmail.png */,
+				B92820D61D17CD1D00E70706 /* loginWithEmail@2x.png */,
+				B92820D71D17CD1D00E70706 /* loginWithEmail@3x.png */,
+				B92820D81D17CD1D00E70706 /* loginWithFB.png */,
+				B92820D91D17CD1D00E70706 /* loginWithFB@2x.png */,
+				B92820DA1D17CD1D00E70706 /* loginWithFB@3x.png */,
+				B92820DB1D17CD1D00E70706 /* loginWithTwitter.png */,
+				B92820DC1D17CD1D00E70706 /* loginWithTwitter@2x.png */,
+				B92820DD1D17CD1D00E70706 /* loginWithTwitter@3x.png */,
+				B928209C1D17CCF400E70706 /* AppDelegate.h */,
+				B928209D1D17CCF400E70706 /* AppDelegate.m */,
+				B928209F1D17CCF400E70706 /* ViewController.h */,
+				B92820A01D17CCF400E70706 /* ViewController.m */,
+				B92820A21D17CCF400E70706 /* Main.storyboard */,
+				B92820A51D17CCF400E70706 /* Assets.xcassets */,
+				B92820A71D17CCF400E70706 /* LaunchScreen.storyboard */,
+				B92820AA1D17CCF400E70706 /* Info.plist */,
+				B92820991D17CCF400E70706 /* Supporting Files */,
+			);
+			path = LoginButtonDemo;
+			sourceTree = "<group>";
+		};
+		B92820991D17CCF400E70706 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B928209A1D17CCF400E70706 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B92820B21D17CCF500E70706 /* LoginButtonDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				B92820B31D17CCF500E70706 /* LoginButtonDemoTests.m */,
+				B92820B51D17CCF500E70706 /* Info.plist */,
+			);
+			path = LoginButtonDemoTests;
+			sourceTree = "<group>";
+		};
+		B92820BD1D17CCF500E70706 /* LoginButtonDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B92820BE1D17CCF500E70706 /* LoginButtonDemoUITests.m */,
+				B92820C01D17CCF500E70706 /* Info.plist */,
+			);
+			path = LoginButtonDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B92820951D17CCF300E70706 /* LoginButtonDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B92820C31D17CCF500E70706 /* Build configuration list for PBXNativeTarget "LoginButtonDemo" */;
+			buildPhases = (
+				B92820921D17CCF300E70706 /* Sources */,
+				B92820931D17CCF300E70706 /* Frameworks */,
+				B92820941D17CCF300E70706 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoginButtonDemo;
+			productName = LoginButtonDemo;
+			productReference = B92820961D17CCF300E70706 /* LoginButtonDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B92820AE1D17CCF500E70706 /* LoginButtonDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B92820C61D17CCF500E70706 /* Build configuration list for PBXNativeTarget "LoginButtonDemoTests" */;
+			buildPhases = (
+				B92820AB1D17CCF500E70706 /* Sources */,
+				B92820AC1D17CCF500E70706 /* Frameworks */,
+				B92820AD1D17CCF500E70706 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B92820B11D17CCF500E70706 /* PBXTargetDependency */,
+			);
+			name = LoginButtonDemoTests;
+			productName = LoginButtonDemoTests;
+			productReference = B92820AF1D17CCF500E70706 /* LoginButtonDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B92820B91D17CCF500E70706 /* LoginButtonDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B92820C91D17CCF500E70706 /* Build configuration list for PBXNativeTarget "LoginButtonDemoUITests" */;
+			buildPhases = (
+				B92820B61D17CCF500E70706 /* Sources */,
+				B92820B71D17CCF500E70706 /* Frameworks */,
+				B92820B81D17CCF500E70706 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B92820BC1D17CCF500E70706 /* PBXTargetDependency */,
+			);
+			name = LoginButtonDemoUITests;
+			productName = LoginButtonDemoUITests;
+			productReference = B92820BA1D17CCF500E70706 /* LoginButtonDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B928208E1D17CCF300E70706 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Unoiatech;
+				TargetAttributes = {
+					B92820951D17CCF300E70706 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					B92820AE1D17CCF500E70706 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = B92820951D17CCF300E70706;
+					};
+					B92820B91D17CCF500E70706 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = B92820951D17CCF300E70706;
+					};
+				};
+			};
+			buildConfigurationList = B92820911D17CCF300E70706 /* Build configuration list for PBXProject "LoginButtonDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B928208D1D17CCF300E70706;
+			productRefGroup = B92820971D17CCF300E70706 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B92820951D17CCF300E70706 /* LoginButtonDemo */,
+				B92820AE1D17CCF500E70706 /* LoginButtonDemoTests */,
+				B92820B91D17CCF500E70706 /* LoginButtonDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B92820941D17CCF300E70706 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B92820EB1D17CD1D00E70706 /* loginWithFB@2x.png in Resources */,
+				B92820EF1D17CD1D00E70706 /* loginWithTwitter@3x.png in Resources */,
+				B92820DE1D17CD1D00E70706 /* email.png in Resources */,
+				B92820E71D17CD1D00E70706 /* loginWithEmail.png in Resources */,
+				B92820E11D17CD1D00E70706 /* fb.png in Resources */,
+				B92820A91D17CCF400E70706 /* LaunchScreen.storyboard in Resources */,
+				B92820E61D17CD1D00E70706 /* twitter@3x.png in Resources */,
+				B92820E51D17CD1D00E70706 /* twitter@2x.png in Resources */,
+				B92820E31D17CD1D00E70706 /* fb@3x.png in Resources */,
+				B92820EE1D17CD1D00E70706 /* loginWithTwitter@2x.png in Resources */,
+				B92820E01D17CD1D00E70706 /* email@3x.png in Resources */,
+				B92820E91D17CD1D00E70706 /* loginWithEmail@3x.png in Resources */,
+				B92820A61D17CCF400E70706 /* Assets.xcassets in Resources */,
+				B92820A41D17CCF400E70706 /* Main.storyboard in Resources */,
+				B92820E41D17CD1D00E70706 /* twitter.png in Resources */,
+				B92820EC1D17CD1D00E70706 /* loginWithFB@3x.png in Resources */,
+				B92820E21D17CD1D00E70706 /* fb@2x.png in Resources */,
+				B92820DF1D17CD1D00E70706 /* email@2x.png in Resources */,
+				B92820E81D17CD1D00E70706 /* loginWithEmail@2x.png in Resources */,
+				B92820EA1D17CD1D00E70706 /* loginWithFB.png in Resources */,
+				B92820ED1D17CD1D00E70706 /* loginWithTwitter.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B92820AD1D17CCF500E70706 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B92820B81D17CCF500E70706 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B92820921D17CCF300E70706 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B92820A11D17CCF400E70706 /* ViewController.m in Sources */,
+				B928209E1D17CCF400E70706 /* AppDelegate.m in Sources */,
+				B928209B1D17CCF400E70706 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B92820AB1D17CCF500E70706 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B92820B41D17CCF500E70706 /* LoginButtonDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B92820B61D17CCF500E70706 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B92820BF1D17CCF500E70706 /* LoginButtonDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B92820B11D17CCF500E70706 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B92820951D17CCF300E70706 /* LoginButtonDemo */;
+			targetProxy = B92820B01D17CCF500E70706 /* PBXContainerItemProxy */;
+		};
+		B92820BC1D17CCF500E70706 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B92820951D17CCF300E70706 /* LoginButtonDemo */;
+			targetProxy = B92820BB1D17CCF500E70706 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B92820A21D17CCF400E70706 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B92820A31D17CCF400E70706 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B92820A71D17CCF400E70706 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B92820A81D17CCF400E70706 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B92820C11D17CCF500E70706 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B92820C21D17CCF500E70706 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B92820C41D17CCF500E70706 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LoginButtonDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.unoiatech.LoginButtonDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B92820C51D17CCF500E70706 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LoginButtonDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.unoiatech.LoginButtonDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B92820C71D17CCF500E70706 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LoginButtonDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.unoiatech.LoginButtonDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoginButtonDemo.app/LoginButtonDemo";
+			};
+			name = Debug;
+		};
+		B92820C81D17CCF500E70706 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LoginButtonDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.unoiatech.LoginButtonDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoginButtonDemo.app/LoginButtonDemo";
+			};
+			name = Release;
+		};
+		B92820CA1D17CCF500E70706 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LoginButtonDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.unoiatech.LoginButtonDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LoginButtonDemo;
+			};
+			name = Debug;
+		};
+		B92820CB1D17CCF500E70706 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LoginButtonDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.unoiatech.LoginButtonDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LoginButtonDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B92820911D17CCF300E70706 /* Build configuration list for PBXProject "LoginButtonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B92820C11D17CCF500E70706 /* Debug */,
+				B92820C21D17CCF500E70706 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B92820C31D17CCF500E70706 /* Build configuration list for PBXNativeTarget "LoginButtonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B92820C41D17CCF500E70706 /* Debug */,
+				B92820C51D17CCF500E70706 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B92820C61D17CCF500E70706 /* Build configuration list for PBXNativeTarget "LoginButtonDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B92820C71D17CCF500E70706 /* Debug */,
+				B92820C81D17CCF500E70706 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B92820C91D17CCF500E70706 /* Build configuration list for PBXNativeTarget "LoginButtonDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B92820CA1D17CCF500E70706 /* Debug */,
+				B92820CB1D17CCF500E70706 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B928208E1D17CCF300E70706 /* Project object */;
+}
